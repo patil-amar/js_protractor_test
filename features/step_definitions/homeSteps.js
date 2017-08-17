@@ -23,7 +23,7 @@ var home_page_steps = function() {
         return browser.get('http://automationpractice.com');
     });
 
-    this.When(/^When I sign in with valid credentials$/, function() {
+    this.When(/^I sign in with valid credentials$/, function() {
         browser.ignoreSynchronization = true;
         var submitLogin = element(by.id('SubmitLogin'))
         var sign_in_btn = element(by.css('.header_user_info'))
@@ -60,7 +60,7 @@ var home_page_steps = function() {
         });
     });
 
-    this.When(/^When I sign in with invalid credentials$/, function () {
+    this.When(/^I sign in with invalid credentials$/, function () {
         browser.ignoreSynchronization = true;
         var submitLogin = element(by.id('SubmitLogin'))
         var sign_in_btn = element(by.css('.header_user_info'))

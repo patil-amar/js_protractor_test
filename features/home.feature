@@ -2,7 +2,7 @@ Feature: Web automation test for Yoti
 
   Scenario: Successful sign in with valid email address and password
     Given I navigate to home page
-    When When I sign in with valid credentials
+    When I sign in with valid credentials
     Then I should be successfuly logged in
 
   Scenario: User should be able to search product
@@ -12,7 +12,7 @@ Feature: Web automation test for Yoti
 
   Scenario: User should see failed authentication message displayed for unsuccessful login
     Given I navigate to home page
-    When When I sign in with invalid credentials
+    When I sign in with invalid credentials
     Then I should see authentication failed alert displayed
 
   Scenario: User should be able to create new account
