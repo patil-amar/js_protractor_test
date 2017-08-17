@@ -1,0 +1,15 @@
+{
+  "name": "cucumber-protractor-example",
+  "version": "0.0.1",
+  "description": "Web automation test for Yoti",
+  "scripts": {
+    "install": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "cucumber": "^0.10.4",
+    "protractor": "^4.0.12",
+    "protractor-cucumber-framework": "^0.5.0"
+  }
+}
